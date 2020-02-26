@@ -1,0 +1,40 @@
+.bars {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+    .bars > .progress-bar {
+        margin: 10px 0;
+    }
+    .content .bars > p {
+        display: inline-block;
+        width: 90%;
+        font-size: 16px;
+        line-height: 20px;
+        float: left;
+        margin: 10px 0;
+    }
+    .content .bars > .percent {
+        width: 10%;
+        float: left;
+        text-align: left;
+    }
+    .content .bars .left {
+        width: 90%;
+        height: 10px;
+        background-color: #36f;
+        float: left;
+    }
+    .content .bars .right {
+        width: 10%;
+        float: left;
+        height: 10px;
+        background-color: #999;
+    }
+    .content .bars .two {
+        width: 16%;
+    }
+    .content .bars .web {
+        width: 84%;
+    }
